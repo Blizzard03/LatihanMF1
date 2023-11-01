@@ -6,8 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="222.0" prefWidth="601.0" style="-fx-background-color: magenta;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.mariq.rasyid.latihanmf1.FXMLOutputController">
+<AnchorPane id="AnchorPane" prefHeight="222.0" prefWidth="601.0" style="-fx-background-color: magenta;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mariq.rasyid.latihanmf1.FXMLOutputController">
    <children>
       <Label layoutX="258.0" layoutY="14.0" text="Invoice" textFill="WHITE">
          <font>
@@ -24,7 +23,7 @@
             <Font name="IrisUPC" size="21.0" />
          </font>
       </Label>
-      <Label layoutX="14.0" layoutY="94.0" text="Qty">
+      <Label layoutX="14.0" layoutY="94.0" text="Category">
          <font>
             <Font name="IrisUPC" size="21.0" />
          </font>
