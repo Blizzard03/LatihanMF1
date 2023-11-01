@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="332.0" prefWidth="334.0" style="-fx-background-color: cyan;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mariq.rasyid.latihanmf1.FXMLInputController">
+   
+   <children>
+      <Label layoutX="29.0" layoutY="14.0" text="Welcome to our Funitures Shop">
+         <font>
+            <Font name="Century Schoolbook Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="71.0" text="Name">
+         <font>
+            <Font name="Ink Free" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_name" layoutX="111.0" layoutY="68.0" prefHeight="25.0" prefWidth="201.0" style="-fx-cursor: text;" />
+      <Label layoutX="26.0" layoutY="113.0" text="Type">
+         <font>
+            <Font name="Ink Free" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtqty" layoutX="111.0" layoutY="212.0" prefHeight="25.0" prefWidth="201.0" style="-fx-cursor: text;" />
+      <Label layoutX="26.0" layoutY="215.0" text="Qty">
+         <font>
+            <Font name="Ink Free" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbtype" layoutX="111.0" layoutY="111.0" prefHeight="25.0" prefWidth="201.0" style="-fx-cursor: hanf;" />
+      <Label layoutX="29.0" layoutY="163.0" text="Category">
+         <font>
+            <Font name="Ink Free" size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="cmbcategory" layoutX="111.0" layoutY="161.0" prefHeight="25.0" prefWidth="201.0" style="-fx-cursor: hand;" />
+      <Button fx:id="btnorder" layoutX="23.0" layoutY="266.0" mnemonicParsing="false" onAction="#orderclick" style="-fx-background-color: olive; -fx-cursor: hand;" text="Order" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="14.0" />
+         </font></Button>
+      <Button fx:id="btn_cancel" layoutX="146.0" layoutY="266.0" mnemonicParsing="false" onAction="#cancelclick" style="-fx-background-color: gold; -fx-cursor: hand;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_quit" layoutX="257.0" layoutY="266.0" mnemonicParsing="false" onAction="#quitclick" style="-fx-background-color: red; -fx-cursor: hand;" text="Quit" textFill="WHITE">
+         <font>
+            <Font name="Gill Sans MT Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

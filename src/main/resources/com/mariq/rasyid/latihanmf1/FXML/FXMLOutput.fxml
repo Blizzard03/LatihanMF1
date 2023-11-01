@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="222.0" prefWidth="601.0" style="-fx-background-color: magenta;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="com.mariq.rasyid.latihanmf1.FXMLOutputController">
+   <children>
+      <Label layoutX="258.0" layoutY="14.0" text="Invoice" textFill="WHITE">
+         <font>
+            <Font name="Lucida Console" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="45.0" text="Customer Name">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="72.0" text="Funiture Type">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="94.0" text="Qty">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="14.0" layoutY="120.0" text="Payment">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="150.0" text="Discount">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="193.0" text="Total">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="45.0" text=":">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="72.0" text=":">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="94.0" text=":">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="120.0" text=":">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="150.0" text=":">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="192.0" text=":">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="custumername" layoutX="194.0" layoutY="46.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="funituretype" layoutX="193.0" layoutY="72.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty" layoutX="192.0" layoutY="96.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="qty_total" layoutX="192.0" layoutY="120.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="268.0" layoutY="120.0" text="x">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="price" layoutX="302.0" layoutY="120.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="397.0" layoutY="120.0" text="=">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="sumprice" layoutX="412.0" layoutY="120.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="discount" layoutX="412.0" layoutY="150.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="410.0" layoutY="167.0" text="----------------------------------- -">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalprice" layoutX="412.0" layoutY="193.0" text="Label">
+         <font>
+            <Font name="IrisUPC" size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutY="230.0" prefHeight="0.0" prefWidth="600.0" style="-fx-background-color: grey;" />
+      <Button fx:id="closebtn" layoutX="577.0" mnemonicParsing="false" onAction="#close_btn_click" style="-fx-cursor: hand; -fx-background-color: red;" text="X" textFill="WHITE" />
+      <Button fx:id="Backbtn" layoutX="550.0" mnemonicParsing="false" onAction="#Backbtnclick" style="-fx-cursor: hand; -fx-background-color: cyan;" text="&lt;" textFill="WHITE" />
+   </children>
+</AnchorPane>
