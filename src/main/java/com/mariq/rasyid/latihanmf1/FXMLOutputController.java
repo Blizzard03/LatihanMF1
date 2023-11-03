@@ -21,7 +21,7 @@ import javafx.scene.control.Label;
  * @author Blizzard
  */
 public class FXMLOutputController implements Initializable {
-    // //Curency Formatter
+    //Curency Formatter
 
     Locale Indonesia = new Locale("in", "ID");
     NumberFormat formater = NumberFormat.getCurrencyInstance(Indonesia);
